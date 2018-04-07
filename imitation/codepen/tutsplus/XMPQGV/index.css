@@ -30,10 +30,11 @@ h1 {
   position: absolute;
   border-bottom: 4px solid transparent;
   z-index: -1;
+  /* 初めにmouseenterした時に左から出現するように見せている */
   transform: translateX(-60px);
 }
 
 .mynav a,
 .target {
-  transition: all .35s ease-in-out;
+  transition: all .40s ease-in-out;
 }

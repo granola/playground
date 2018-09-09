@@ -1,0 +1,23 @@
+{
+  "name": "precommit",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "index.js",
+  "scripts": {
+    "precommit": "node src precommit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prayground",
+    "precommit"
+  ],
+  "author": "granola",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
+}

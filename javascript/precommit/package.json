@@ -19,5 +19,8 @@
   "license": "ISC",
   "devDependencies": {
     "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
   }
 }
